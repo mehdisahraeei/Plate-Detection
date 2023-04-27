@@ -1,0 +1,6 @@
+names:
+- licence
+nc: 1
+train: /content/yolov7/ANPR_ir-1/train/images
+val: /content/yolov7/ANPR_ir-1/valid/images
+test: /content/yolov7/ANPR_ir-1/test/images

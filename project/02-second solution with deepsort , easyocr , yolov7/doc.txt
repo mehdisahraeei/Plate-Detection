@@ -1,0 +1,8 @@
+In this project, we first trained a model using an Iranian license plate dataset and YOLOV 7 model, 
+and then we recognized the license plate and obtained its text with OCR.
+
+yolov7:
+https://github.com/augmentedstartups/yolov7
+
+training model with yolov7:
+https://github.com/mehdisahraeei/deep_learning_project/blob/master/project/1-deep%20learning/1-yolov/4-yolov7/01-training%20yolov7%20with%20dataset/yolov7.ipynb
