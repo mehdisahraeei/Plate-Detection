@@ -1,0 +1,16 @@
+dataset: made in roboflow
+-----------------------------------------------------------------------------------------------
+
+downloading:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="OhaXBuHWLzwK4i1rCxMs")
+project = rf.workspace("datasetyolov5-2k886").project("plate-alpha")
+dataset = project.version(6).download("folder")
+
+-----------------------------------------------------------------------------------------------
+main dataset: https://www.kaggle.com/datasets/mehdisahraei/persian-alpha
+
+on colab
